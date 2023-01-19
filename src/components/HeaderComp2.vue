@@ -7,6 +7,7 @@
         <div class="w-1/6 flex-1">
           <a
             href="#"
+            @click.prevent="changePage('accueil')"
             class="relative block transform hover:scale-110 transition-transform duration-200 w-full"
           >
             Accueil
@@ -15,6 +16,7 @@
         <div class="w-1/6 flex-1">
           <a
             href="#"
+            @click.prevent="changePage('formation')"
             class="relative block transform hover:scale-110 transition-transform duration-200"
           >
             <img
@@ -28,6 +30,7 @@
         <div class="w-1/6 flex-1">
           <a
             href="#"
+            @click.prevent="changePage('electricite')"
             class="relative inline-block transform hover:scale-110 transition-transform duration-200"
           >
             <img
@@ -41,6 +44,7 @@
         <div class="w-1/6 flex-1">
           <a
             href="#"
+            @click.prevent="changePage('expertise')"
             class="relative inline-block transform hover:scale-110 transition-transform duration-200"
           >
             <img
@@ -54,6 +58,7 @@
         <div class="w-1/6 flex-1">
           <a
             href="#"
+            @click.prevent="changePage('materiel')"
             class="relative inline-block transform hover:scale-110 transition-transform duration-200"
           >
             <img
@@ -67,6 +72,7 @@
         <div class="w-1/6 flex-1">
           <a
             href="#"
+            @click.prevent="changePage('eclairage')"
             class="relative inline-block transform hover:scale-110 transition-transform duration-200"
           >
             <img
@@ -124,4 +130,29 @@
       </div>
     </div>
   </div>
+  <img
+    src="/assets/img/bandeau1.jpg"
+    class="object-cover w-full h-full"
+    alt="Bandeau"
+  />
 </template>
+
+<script>
+import { mapStores } from "pinia";
+import useModalStore from "@/stores/modal";
+export default {
+  name: "HeaderComp",
+  computed: {
+    ...mapStores(useModalStore),
+  },
+  methods: {
+    toggleContactForm() {
+      this.modalStore.isOpen = !this.modalStore.isOpen;
+      console.log(this.modalStore.isOpen);
+    },
+    changePage(value) {
+      this.modalStore.pageOn = value;
+    },
+  },
+};
+</script>
