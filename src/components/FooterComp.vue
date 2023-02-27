@@ -61,17 +61,19 @@
     class="text-white bg-blue-900 flex text-center h-12 justify-center items-center"
   >
     <div class="w-1/4 flex-1">
-      <a
+      <router-link
         href="#"
+        :to="{ name: 'mentionslegales' }"
         class="relative block transform hover:scale-110 transition-transform duration-200 w-full"
-        >Mentions Légales</a
+        >Mentions Légales</router-link
       >
     </div>
     <div class="w-1/4 flex-1">
-      <a
+      <router-link
         href="#"
+        :to="{ name: 'creditsphotos' }"
         class="relative block transform hover:scale-110 transition-transform duration-200"
-        >Crédits Photos</a
+        >Crédits Photos</router-link
       >
     </div>
     <div class="w-1/4 flex-1">

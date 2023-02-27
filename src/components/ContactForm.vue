@@ -18,7 +18,9 @@
       >
         <div class="py-4 text-left px-6">
           <div class="flex justify-between items-center pb-4">
-            <p class="text-2xl font-bold">Contactez-Nous</p>
+            <p class="text-2xl font-bold" v-if="!modalCgu">Contactez-Nous !</p>
+            <p class="text-2xl font-bold" v-else>CGU</p>
+
             <div
               class="modal-close cursor-pointer z-50"
               @click.prevent="modalVisiblility = false"
@@ -26,7 +28,8 @@
               <i class="fas fa-times">fermer</i>
             </div>
           </div>
-          <ContactFields></ContactFields>
+          <ContactFields v-if="!modalCgu"></ContactFields>
+          <ContactCgu v-else></ContactCgu>
         </div>
       </div>
     </div>
@@ -37,16 +40,19 @@
 import { mapState, mapWritableState } from "pinia";
 import useModalStore from "@/stores/modal";
 import ContactFields from "@/components/ContactFields.vue";
+import ContactCgu from "@/components/ContactCgu.vue";
 
 export default {
   name: "contactForm",
   components: {
     ContactFields,
+    ContactCgu,
   },
   computed: {
     ...mapState(useModalStore, ["hiddenClass"]),
     ...mapWritableState(useModalStore, {
       modalVisiblility: "isOpen",
+      modalCgu: "isCgu",
     }),
   },
 };

@@ -4,19 +4,19 @@
       <div
         class="text-black bg-lime-200 flex text-center justify-center items-center h-20"
       >
-        <div class="w-1/6 flex-1">
-          <a
+        <div class="w-1/7 flex-1">
+          <router-link
             href="#"
-            @click.prevent="changePage('accueil')"
+            :to="{ name: 'accueil' }"
             class="relative block transform hover:scale-110 transition-transform duration-200 w-full"
           >
             Accueil
-          </a>
+          </router-link>
         </div>
-        <div class="w-1/6 flex-1">
-          <a
+        <div class="w-1/7 flex-1">
+          <router-link
             href="#"
-            @click.prevent="changePage('formation')"
+            :to="{ name: 'formation' }"
             class="relative block transform hover:scale-110 transition-transform duration-200"
           >
             <img
@@ -25,12 +25,12 @@
               alt="IconFormation"
             />
             Formation a l'autonomie solaire
-          </a>
+          </router-link>
         </div>
-        <div class="w-1/6 flex-1">
-          <a
+        <div class="w-1/7 flex-1">
+          <router-link
             href="#"
-            @click.prevent="changePage('electricite')"
+            :to="{ name: 'electricite' }"
             class="relative inline-block transform hover:scale-110 transition-transform duration-200"
           >
             <img
@@ -39,12 +39,12 @@
               alt="IconFormation"
             />
             Electricite Solaire
-          </a>
+          </router-link>
         </div>
-        <div class="w-1/6 flex-1">
-          <a
+        <div class="w-1/7 flex-1">
+          <router-link
             href="#"
-            @click.prevent="changePage('expertise')"
+            :to="{ name: 'expertise' }"
             class="relative inline-block transform hover:scale-110 transition-transform duration-200"
           >
             <img
@@ -53,12 +53,12 @@
               alt="IconFormation"
             />
             Expertise en installations Solaire
-          </a>
+          </router-link>
         </div>
-        <div class="w-1/6 flex-1">
-          <a
+        <div class="w-1/7 flex-1">
+          <router-link
             href="#"
-            @click.prevent="changePage('materiel')"
+            :to="{ name: 'materiel' }"
             class="relative inline-block transform hover:scale-110 transition-transform duration-200"
           >
             <img
@@ -67,12 +67,12 @@
               alt="IconFormation"
             />
             Materiel solaire au detail
-          </a>
+          </router-link>
         </div>
-        <div class="w-1/6 flex-1">
-          <a
+        <div class="w-1/7 flex-1">
+          <router-link
             href="#"
-            @click.prevent="changePage('eclairage')"
+            :to="{ name: 'eclairage' }"
             class="relative inline-block transform hover:scale-110 transition-transform duration-200"
           >
             <img
@@ -81,7 +81,16 @@
               alt="IconFormation"
             />
             Eclairage Solaire
-          </a>
+          </router-link>
+        </div>
+        <div class="w-1/7 flex-1">
+          <button
+            href="#"
+            @click.prevent="toggleContactForm"
+            class="bg-orange-400 hover:bg-orange-300 font-bold py-2 px-4 rounded hover:translate-y-2 transition-transform duration-200 mt-2"
+          >
+            Contactez-nous !
+          </button>
         </div>
       </div>
     </div>

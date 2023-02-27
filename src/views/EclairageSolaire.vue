@@ -2,7 +2,7 @@
   <div class="text-lime-700 text-center text-3xl pt-5">
     <p>Eclairage solaire dans l'Aude : Simple & Solaire</p>
   </div>
-  <div class="text-indigo-600 text-center text-2xl pt-4">
+  <div class="text-orange-600 text-center text-2xl pt-4">
     <p>
       équipements d'éclairage avec recharge solaire près de Narbonne et Béziers
       !
@@ -10,24 +10,34 @@
   </div>
   <div class="text-center pt-3">
     <p class="pt-2">
-      Vous voulez éclairer votre extérieur ? Vous désirez rajouter de la couleur
-      dans votre jardin ou aux abords de votre piscine ? Vous avez besoin d'un
-      éclairage solaire autonome ?
+      Vous voulez
+      <strong class="font-medium">éclairer votre extérieur</strong> ? Vous
+      désirez rajouter de la couleur dans votre jardin ou aux abords de votre
+      piscine ? Vous avez besoin d'un
+      <strong class="font-medium">éclairage solaire autonome</strong> ?
     </p>
     <p class="pt-2">
-      Notre expertise d'électricité solaire à Argeliers vous propose
-      l'installation et le dépannage de votre matériel d'éclairage solaire
-      autonome.
+      Notre expertise d'
+      <router-link
+        href="#"
+        :to="{ name: 'electricite' }"
+        class="underline underline-offset-2 font-medium"
+        >électricité solaire</router-link
+      >
+      à Argeliers vous propose l'installation et le dépannage de votre matériel
+      d'<strong class="font-medium">éclairage solaire autonome</strong>.
     </p>
     <p class="pt-2">
-      Pour l'éclairage solaire de votre abri, jardin, pergola, camping ou encore
-      votre cabanon, nous mettons à votre disposition divers équipements de
-      haute qualité.
+      Pour l'<strong class="font-medium">éclairage solaire</strong> de votre
+      abri, jardin, pergola, camping ou encore votre cabanon, nous mettons à
+      votre disposition divers équipements de haute qualité.
     </p>
     <p class="pt-2">
-      Pour une autonomie énergétique plus complète, nous vous assurons aussi
-      l'installation de Kits solaires autonomes avec panneaux solaires. C'est
-      idéal pour les sites isolés, non reliés au réseau.
+      Pour une <strong class="font-medium">autonomie énergétique</strong> plus
+      complète, nous vous assurons aussi l'installation de
+      <strong class="font-medium">Kits solaires autonomes</strong> avec
+      <strong class="font-medium">panneaux solaires</strong>. C'est idéal pour
+      les sites isolés, non reliés au réseau.
     </p>
   </div>
   <div class="container px-5 py-2 mx-auto lg:pt-6 lg:px-4">
@@ -88,12 +98,13 @@
       </div>
     </div>
   </div>
-  <div class="text-indigo-600 text-center text-xl pt-5">
+  <div class="text-orange-600 text-center text-xl pt-5">
     Découvrez notre matériel d'éclairage solaire !
   </div>
   <div class="text-center pt-4 mb-2">
-    Soucieuse de votre satisfaction, votre entreprise Simple & Solaire (11) vous
-    propose différents produits d'excellente qualité à la vente :
+    Soucieuse de votre satisfaction, votre entreprise
+    <strong class="font-medium">Simple & Solaire (11)</strong> vous propose
+    différents produits d'excellente qualité à la vente :
   </div>
   <div class="container px-3 py-2 mx-auto lg:pt-6 lg:px-">
     <div

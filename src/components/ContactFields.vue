@@ -59,7 +59,11 @@
         class="w-4 h-4 float-left -ml-6 mt-1 rounded"
       />
       <ErrorMessage class="text-red-600" name="cgu" />
-      <label class="inline-block">conditions générales d'utilisation</label>
+      <label class="inline-block">
+        <a href="#" class="underline" @click.prevent="modalCgu = true"
+          >conditions générales d'utilisation</a
+        ></label
+      >
     </div>
 
     <button
@@ -68,10 +72,18 @@
     >
       Envoi
     </button>
+
+    <p class="text-center">
+      N'hésitez pas à nous adresser vos demandes à l'aide de ce formulaire de
+      contact, nous vous répondrons dans les plus brefs délais.
+    </p>
   </vee-form>
 </template>
 
 <script>
+import { mapState, mapWritableState } from "pinia";
+import useModalStore from "@/stores/modal";
+
 export default {
   name: "registerForm",
   data() {
@@ -86,6 +98,12 @@ export default {
       },
     };
   },
-  components: {},
+  computed: {
+    ...mapState(useModalStore, ["hiddenClass"]),
+    ...mapWritableState(useModalStore, {
+      modalVisiblility: "isOpen",
+      modalCgu: "isCgu",
+    }),
+  },
 };
 </script>

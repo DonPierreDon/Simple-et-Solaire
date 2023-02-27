@@ -4,7 +4,7 @@
       Formation à l'autonomie solaire à Narbonne et Béziers : Simple & Solaire
     </p>
   </div>
-  <div class="text-indigo-600 text-center text-2xl mt-6">
+  <div class="text-orange-400 text-center text-2xl mt-6">
     <p>
       Découvrez nos offres pour les particuliers et les professionnels dans
       l'Aude !
@@ -12,9 +12,16 @@
   </div>
   <div class="text-center mt-6">
     <p>
-      Notre expertise d'électricité solaire à Argeliers vous propose des
-      sessions de formation à l'autonomie énergétique, qui sont accessibles pour
-      :
+      Notre expertise
+      <router-link
+        href="#"
+        :to="{ name: 'electricite' }"
+        class="underline underline-offset-2 font-medium"
+        >d'électricité solaire</router-link
+      >
+      à Argeliers vous propose des sessions de
+      <strong class="font-medium">formation à l'autonomie énergétique</strong>,
+      qui sont accessibles pour :
     </p>
   </div>
   <div class="container px-3 py-2 mx-auto lg:pt-6 lg:px- mt-2">
@@ -111,7 +118,7 @@
       </div>
     </div>
   </div>
-  <div class="text-indigo-600 text-center text-xl mt-8">
+  <div class="text-orange-400 text-center text-xl mt-8">
     Faites appel à Simple & Solaire pour demander une formation solaire
     spécifique dans l'Aude !
   </div>
@@ -160,7 +167,7 @@
         </div>
         <div class="w-1/2 p-4 rounded-lg text-center ml-24">
           <div
-            class="border-2 border-dashed border-violet-300 w-2/3 mx-auto mt-6"
+            class="border-2 border-dashed border-orange-300 w-2/3 mx-auto mt-6"
           >
             <h2 class="text-xl font-medium">Formation Initiale</h2>
             <p class="mb-2">(aucun pré-requis)</p>

@@ -2,28 +2,28 @@
   <div class="text-lime-700 text-center text-3xl pt-5">
     <p>Autoconsommation solaire à Narbonne et Béziers : Simple & Solaire</p>
   </div>
-  <div class="text-indigo-600 text-center text-2xl pt-4">
+  <div class="text-orange-600 text-center text-2xl pt-4">
     <p>Produisez votre propre énergie solaire dans l'Aude !</p>
   </div>
   <div class="text-center pt-3">
     <p class="pt-2">
-      Notre entreprise Simple & Solaire à Argeliers vous invite à découvrir les
-      solutions et les avantages de l'installation d'un système électrique
-      solaire.
+      Notre <strong class="font-medium">entreprise Simple & Solaire</strong> à
+      Argeliers vous invite à découvrir les solutions et les avantages de
+      l'installation d'un système électrique solaire.
     </p>
     <p class="pt-2">
       Petite information utile : quand on passe en autonomie complète, on oublie
       le Linky
     </p>
     <p class="pt-2">
-      Pour produire votre propre électricité, vous avez besoin d'un générateur
-      de courant photovoltaïque. Ensuite, il vous faut choisir votre niveau
-      d'autonomie :
+      Pour produire votre propre électricité, vous avez besoin d'un
+      <strong class="font-medium">générateur de courant photovoltaïque.</strong>
+      Ensuite, il vous faut choisir votre niveau d'autonomie :
     </p>
   </div>
   <div class="container px-3 py-2 mx-auto lg:pt-6 lg:px- mt-2">
     <div class="flex flex-wrap -m-1 md:-m-2">
-      <div class="flex flex-wrap w-1/3 bg-violet-500 rounded-md">
+      <div class="flex flex-wrap w-1/3 bg-orange-500 rounded-md">
         <div class="w-full p-1 md:p-2">
           <ul class="list-disc ml-16">
             <li>L'autoconsommation sans stockage</li>
@@ -34,7 +34,7 @@
           </ul>
         </div>
       </div>
-      <div class="flex flex-wrap w-1/3 bg-violet-400 rounded-md">
+      <div class="flex flex-wrap w-1/3 bg-orange-400 rounded-md">
         <div class="w-full p-1 md:p-2">
           <ul class="list-disc ml-16">
             <li>L'autoconsommation avec Domotique</li>
@@ -47,7 +47,7 @@
           </ul>
         </div>
       </div>
-      <div class="flex flex-wrap w-1/3 bg-violet-300 rounded-md">
+      <div class="flex flex-wrap w-1/3 bg-orange-300 rounded-md">
         <div class="w-full p-1 md:p-2">
           <ul class="list-disc ml-16">
             <li>L'autonomie complète</li>
@@ -121,7 +121,7 @@
       </div>
     </div>
   </div>
-  <div class="text-indigo-600 text-center text-xl pt-5">
+  <div class="text-orange-600 text-center text-xl pt-5">
     Découvrez les atouts d'une installation solaire !
   </div>
   <div class="text-center pt-4 mb-2">
@@ -131,7 +131,7 @@
     <div
       class="flex flex-wrap -m-1 md:-m-2 divide-x-4 divide-lime-200 divide-dashed"
     >
-      <div class="flex flex-wrap w-1/2 bg-violet-200">
+      <div class="flex flex-wrap w-1/2 bg-orange-200">
         <div class="w-full p-1 md:p-2">
           <ul class="list-disc ml-96">
             <li>
