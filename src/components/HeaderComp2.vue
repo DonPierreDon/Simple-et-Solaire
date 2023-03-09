@@ -20,7 +20,7 @@
             class="relative block transform hover:scale-110 transition-transform duration-200"
           >
             <img
-              src="public/assets/img/icons/FormationIcon.png"
+              src="/public/assets/img/icons/FormationIcon.png"
               class="object-cover w-12 h-12 pt-1 pr-2 flex ml-36"
               alt="IconFormation"
             />
@@ -34,7 +34,7 @@
             class="relative inline-block transform hover:scale-110 transition-transform duration-200"
           >
             <img
-              src="public/assets/img/icons/ElecIcon.png"
+              src="/public/assets/img/icons/ElecIcon.png"
               class="object-cover w-12 h-12 pt-1 pr-2 flex ml-12"
               alt="IconFormation"
             />
@@ -48,7 +48,7 @@
             class="relative inline-block transform hover:scale-110 transition-transform duration-200"
           >
             <img
-              src="public/assets/img/icons/ExpertiseIcon.png"
+              src="/public/assets/img/icons/ExpertiseIcon.png"
               class="object-cover w-12 h-12 pt-1 pr-2 flex ml-28"
               alt="IconFormation"
             />
@@ -62,7 +62,7 @@
             class="relative inline-block transform hover:scale-110 transition-transform duration-200"
           >
             <img
-              src="public/assets/img/icons/MaterielIcon.png"
+              src="/public/assets/img/icons/MaterielIcon.png"
               class="object-cover w-12 h-12 pt-1 pr-2 flex ml-20"
               alt="IconFormation"
             />
@@ -76,7 +76,7 @@
             class="relative inline-block transform hover:scale-110 transition-transform duration-200"
           >
             <img
-              src="public/assets/img/icons/EclairageIcon.png"
+              src="/public/assets/img/icons/EclairageIcon.png"
               class="object-cover w-12 h-12 pt-1 pr-2 flex ml-12"
               alt="IconFormation"
             />
@@ -100,7 +100,7 @@
   >
     <div class="w-1/2">
       <img
-        src="public/assets/img/SimpleSolaire-Logo.jpg"
+        src="/public/assets/img/SimpleSolaire-Logo.jpg"
         class="object-cover pt-1 pr-2 flex ml-96 mt-4"
         alt="IconFormation"
       />

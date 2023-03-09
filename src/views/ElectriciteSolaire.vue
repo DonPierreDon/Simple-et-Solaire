@@ -70,7 +70,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/ElecSolaire1.jpg"
+            src="/public/assets/img/ElecSolaire1.jpg"
           />
         </div>
       </div>
@@ -79,7 +79,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/ElecSolaire2.jpg"
+            src="/public/assets/img/ElecSolaire2.jpg"
           />
         </div>
       </div>
@@ -88,7 +88,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/ElecSolaire3.jpg"
+            src="/public/assets/img/ElecSolaire3.jpg"
           />
         </div>
       </div>
@@ -106,7 +106,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/ElecSolaire5.jpg"
+            src="/public/assets/img/ElecSolaire5.jpg"
           />
         </div>
       </div>
@@ -115,7 +115,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/ElecSolaire6.JPG"
+            src="/public/assets/img/ElecSolaire6.jpg"
           />
         </div>
       </div>

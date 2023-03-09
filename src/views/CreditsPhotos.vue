@@ -93,7 +93,7 @@
     <img
       alt="gallery"
       class="flex rounded-lg ml-4"
-      src="/assets/img/ElecSolaire6.JPG"
+      src="/assets/img/ElecSolaire6.jpg"
     />
   </div>
   <div class="flex m-10 justify-center">
@@ -156,7 +156,7 @@
     <img
       alt="gallery"
       class="flex rounded-lg ml-4"
-      src="/assets/img/InstalSolaire5.JPG"
+      src="/assets/img/InstalSolaire5.jpg"
     />
   </div>
   <div class="flex m-10 justify-center">

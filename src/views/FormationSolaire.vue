@@ -67,7 +67,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/FormationAutonom1.jpg"
+            src="/public/assets/img/FormationAutonom1.jpg"
           />
         </div>
       </div>
@@ -76,7 +76,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/FormationAutonom2.jpg"
+            src="/public/assets/img/FormationAutonom2.jpg"
           />
         </div>
       </div>
@@ -85,7 +85,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/FormationAutonom3.jpg"
+            src="/public/assets/img/FormationAutonom3.jpg"
           />
         </div>
       </div>
@@ -94,7 +94,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/FormationAutonom4.jpg"
+            src="/public/assets/img/FormationAutonom4.jpg"
           />
         </div>
       </div>
@@ -103,7 +103,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/FormationAutonom5.jpg"
+            src="/public/assets/img/FormationAutonom5.jpg"
           />
         </div>
       </div>
@@ -112,7 +112,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/FormationAutonom6.jpg"
+            src="/public/assets/img/FormationAutonom6.jpg"
           />
         </div>
       </div>

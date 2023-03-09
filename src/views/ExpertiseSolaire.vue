@@ -40,7 +40,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/InstalSolaire1.jpg"
+            src="/public/assets/img/InstalSolaire1.jpg"
           />
         </div>
       </div>
@@ -49,7 +49,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/InstalSolaire2.jpg"
+            src="/public/assets/img/InstalSolaire2.jpg"
           />
         </div>
       </div>
@@ -58,7 +58,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/InstalSolaire3.jpg"
+            src="/public/assets/img/InstalSolaire3.jpg"
           />
         </div>
       </div>
@@ -67,7 +67,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/InstalSolaire4.jpg"
+            src="/public/assets/img/InstalSolaire4.jpg"
           />
         </div>
       </div>
@@ -76,7 +76,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/InstalSolaire5.JPG"
+            src="/public/assets/img/InstalSolaire5.jpg"
           />
         </div>
       </div>

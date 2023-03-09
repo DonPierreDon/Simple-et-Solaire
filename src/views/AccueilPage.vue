@@ -132,7 +132,7 @@
           <div class="flex flex-wrap w-1/3">
             <div class="w-full p-1 md:p-2 mt-10 ml-4 bg-white">
               <img
-                src="public/assets/img/PanneauxSolaireAccueil.jpg"
+                src="/public/assets/img/PanneauxSolaireAccueil.jpg"
                 alt="PanneauxSolaireAccueil"
               />
             </div>
@@ -182,7 +182,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/Accuei1.jpg"
+            src="/public/assets/img/Accuei1.jpg"
           />
         </div>
       </div>
@@ -191,7 +191,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/Accueil2.jpg"
+            src="/public/assets/img/Accueil2.jpg"
           />
         </div>
       </div>
@@ -200,7 +200,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/FormationAutonom3.jpg"
+            src="/public/assets/img/FormationAutonom3.jpg"
           />
         </div>
       </div>
@@ -209,7 +209,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/Accueil4.jpg"
+            src="/public/assets/img/Accueil4.jpg"
           />
         </div>
       </div>
@@ -218,7 +218,7 @@
           <img
             alt="gallery"
             class="block object-cover object-center w-full h-full rounded-lg"
-            src="public/assets/img/Accueil5.jpg"
+            src="/public/assets/img/Accueil5.jpg"
           />
         </div>
       </div>
